@@ -7,10 +7,15 @@ export default function Trivia() {
             <div className="question">What`s the best job?</div>
         </div>
         <div className="answers">
+          
             <div className="answer">web dev</div>
+
             <div className="answer">hr</div>
+
             <div className="answer">you</div>
+
             <div className="answer">me</div>
+
         </div>
     </div>
   )

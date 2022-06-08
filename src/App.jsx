@@ -35,21 +35,32 @@ function App() {
     { id:14, amount:"€ 500.000,00" },
 
     { id:15, amount:"€ 1.000.000,00" },
-    
+
   ].reverse();
 
   return (
     <div className="App">
+
       <div className="main">
+
         <div className="top">
+
           <div className="timer">30</div>
+
         </div>
+
         <div className="bottom">
+
           <Trivia />
+
         </div>
+
       </div>
+
       <div className="pyramid">
+
         <ul className="moneyList">
+          
           {moneyPyramid.map((m) => (
           <li className= {questionNumber === m.id ? "moneyListItem active" : "moneyListItem"}>
             <span className="moneyListItemNumber">{m.id}</span>

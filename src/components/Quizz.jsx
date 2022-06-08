@@ -1,5 +1,5 @@
 import React from 'react'
-
+//if the answer go to answer
 export default function Trivia() {
   return (
     <div>

@@ -4,7 +4,7 @@ import Trivia from "./components/Quizz";
 
 function App() {
   const [questionNumber, setQuestionNumber] = useState(1);
-
+//all in the right 
   const moneyPyramid = [
     { id:1, amount:"€ 100,00" },
     { id:2, amount:"€ 200,00" },
